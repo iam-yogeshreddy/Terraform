@@ -11,13 +11,13 @@ The terraform init command initializes a working directory containing terraform 
 
 2.terraform plan :
 
-
 The terraform plan command creates an execution plan, which lets us preview the changes that terraform plans to make to our infrastructure.
+
 
 3.terraform apply :
 
-
 Apply makes the changes defined by our plan to create, update, or destroy resources on the any cloud provider.
+
 
 4.terraform destroy
 

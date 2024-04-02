@@ -1,6 +1,6 @@
 #  𝐓𝐞𝐫𝐫𝐚𝐟𝐨𝐫𝐦
 
-Terraform is a infrastructure as a code tool created by HashiCorp.Terraform is a tool that can automate our resources on any cloud provider safely and efficiently.
+Terraform is a infrastructure as a code tool created by HashiCorp.By using terraform we can create,manage and automate our resources on any cloud provider safely and efficiently.
 
 * 𝐓𝐞𝐫𝐫𝐚𝐟𝐨𝐫𝐦 𝐥𝐢𝐟𝐞 𝐜𝐲𝐜𝐥𝐞 :
 

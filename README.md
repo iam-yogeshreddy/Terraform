@@ -6,7 +6,7 @@ Terraform is a infrastructure as a code tool created by HashiCorp.Terraform is o
 
 1.terraform init :
 
-The terraform init command initializes a working directory containing terraform configuration files. This is the first command that should be run after writing a new terraform configuration or cloning an existing one from version control. It is safe to run this command multiple times.
+The terraform init command initializes a working directory containing terraform configuration files. This is the first command that should be run after writing a new terraform configuration file or cloning an existing one from version control. It is safe to run this command multiple times.
 
 2.terraform plan :
 

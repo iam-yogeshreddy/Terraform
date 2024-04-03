@@ -30,6 +30,7 @@ The terraform destroy copmmand terminates resources that are defined in our conf
 
 
 𝘽𝙚𝙨𝙩 𝙥𝙧𝙖𝙘𝙩𝙞𝙘𝙚𝙨 :
+
 => In Terraform (terraform.tfstate) file should store in remote storage environments.
 
 

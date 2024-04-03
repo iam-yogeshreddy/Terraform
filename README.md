@@ -26,3 +26,11 @@ Apply makes the changes defined by our plan to create, update, or destroy resour
 4.terraform destroy :
 
 The terraform destroy copmmand terminates resources that are defined in our configuration file.This destroy command is the reverse of terraform apply in that it terminates all the resources specified by the configuration. It does not destroy resources running elsewhere that are not described in the current configuration.
+
+
+
+𝘽𝙚𝙨𝙩 𝙥𝙧𝙖𝙘𝙩𝙞𝙘𝙚𝙨 :
+=> In Terraform (terraform.tfstate) file should store in remote storage environments.
+
+
+=> Enabling versioning on state file is good practice to recovering state file.

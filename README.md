@@ -35,3 +35,13 @@ The terraform destroy copmmand terminates resources that are defined in our conf
 
 
 => Enabling versioning on state file is good practice to recovering state file.
+
+
+
+
+
+** Challenges with terraform :
+
+=> State file should store in remote.
+
+=> Manual changes to the cloud providers can not be identified and auto corrected.

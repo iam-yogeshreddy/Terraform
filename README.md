@@ -17,7 +17,7 @@ The terraform plan command creates an execution plan, which lets us preview the 
 
 
 
-3.terraform apply :
+3.terraform apply : 
 
 Apply makes the changes defined by our plan to create, update, or destroy resources on the any cloud provider.
 

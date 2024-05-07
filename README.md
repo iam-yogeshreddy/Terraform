@@ -42,6 +42,6 @@ The terraform destroy copmmand terminates resources that are defined in our conf
 
 ** Challenges with terraform :
 
-=> State file should store in remote.
+=> State file management and state file should store in remote.
 
 => Manual changes to the cloud providers can not be identified and auto corrected.

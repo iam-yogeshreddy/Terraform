@@ -3,49 +3,49 @@
 
 𝐖𝐡𝐚𝐭 𝐢𝐬 𝐓𝐞𝐫𝐫𝐚𝐟𝐨𝐫𝐦 :
 
-Terraform is a infrastructure as a code tool created by HashiCorp.Terraform primarily used to automate various infrastructure tasks.By using terraform we can create,manage,tracks and automate changes of our infrastructure or resources on any cloud provider safely and efficiently.
+Terraform is a infrastructure as a code tool created by HashiCorp.Terraform primarily used to automate various infrastructure tasks.By using terraform we can create,manage,tracks and automate changes of our infrastructure on any cloud provider safely and efficiently.
 
 𝙃𝙤𝙬 𝙙𝙤𝙚𝙨 𝙏𝙚𝙧𝙧𝙖𝙛𝙤𝙧𝙢 𝙬𝙤𝙧𝙠 :
 
-* 𝐓𝐞𝐫𝐫𝐚𝐟𝐨𝐫𝐦 𝐥𝐢𝐟𝐞 𝐜𝐲𝐜𝐥𝐞 :
+Terraform creates and manages resources on any cloud providers and other services through their Application Programming Interfaces (APIs).
+
+![image](https://github.com/user-attachments/assets/7061433a-4fd5-4084-9357-2fc141585550)
 
 
-1.terraform init :
+* 𝐓𝐞𝐫𝐫𝐚𝐟𝐨𝐫𝐦 𝙬𝙤𝙧𝙠 𝙛𝙡𝙤𝙬 :
 
-The terraform init command initializes a working directory containing terraform configuration files. This is the first command that should be run after writing a new terraform configuration file or cloning an existing one from version control. It is safe to run this command multiple times.
+  First we write terraform configuration file that defines our infrastructure.
+  
+-> terraform init :
 
-
-
-2.terraform plan :
-
-The terraform plan command creates an execution plan, which lets us preview the changes that terraform plans to make to our infrastructure.
+The terraform init command initializes a working directory containing terraform configuration files. This is the first command that should be run after writing a new terraform configuration file.
 
 
+-> terraform plan :
 
-3.terraform apply : 
-
-Apply makes the changes defined by our plan to create, update, or destroy resources on the any cloud provider.
-
+The terraform plan command creates an execution plan, which lets us preview the changes that terraform plan to make to our infrastructure.
 
 
-4.terraform destroy :
+-> terraform apply : 
 
-The terraform destroy copmmand terminates resources that are defined in our configuration file.This destroy command is the reverse of terraform apply in that it terminates all the resources specified by the configuration. It does not destroy resources running elsewhere that are not described in the current configuration.
+The terraform apply command makes the changes defined by our plan to create and manage on our infrastructure.
 
+
+-> terraform destroy :
+
+The terraform destroy command terminates resources that are defined in our configuration file.This destroy command is the reverse of terraform apply in that it terminates all the resources specified by the configuration file.
+
+![image](https://github.com/user-attachments/assets/8bb8f884-0d58-4085-abdd-145f858c309a)
 
 
 𝘽𝙚𝙨𝙩 𝙥𝙧𝙖𝙘𝙩𝙞𝙘𝙚𝙨 :
 
-=> In Terraform (terraform.tfstate) file should store in remote storage environments.
-
+=> We should should store our state file in remote platforms only not in our local machine, github or gitlab.
 
 => Enabling versioning on state file is good practice to recovering state file.
 
 
-
-
-
-** Challenges with terraform :
+** 𝗖𝗵𝗮𝗹𝗹𝗲𝗻𝗴𝗲𝘀 𝘄𝗶𝘁𝗵 𝘁𝗲𝗿𝗿𝗮𝗳𝗼𝗿𝗺 :
 
 => State file management and state file should store in remote.
 

@@ -38,6 +38,17 @@ The terraform destroy command terminates resources that are defined in our confi
 ![image](https://github.com/user-attachments/assets/8bb8f884-0d58-4085-abdd-145f858c309a)
 
 
+𝙒𝙝𝙮 𝙏𝙚𝙧𝙧𝙖𝙛𝙤𝙧𝙢 : 
+
+-> Teerraform is used to manages any infrastructure.
+
+-> Teerraform is used to track our infrastructure.
+
+-> Teerraform is used to automate changes.
+
+-> And instead of learning of AWS CloudFormation templates, Azure Resource Manager and Google Cloud Platform Scripting for managing and automating infrastructure learn terraform tool that can manage and automates our infrastructure on any cloud provider.
+
+
 𝘽𝙚𝙨𝙩 𝙥𝙧𝙖𝙘𝙩𝙞𝙘𝙚𝙨 :
 
 => We should should store our state file in remote platforms only not in our local machine, github or gitlab.

@@ -75,6 +75,9 @@ The terraform destroy command terminates resources that are defined in our confi
 
 𝙄𝙙𝙚𝙖𝙡 𝙏𝙚𝙧𝙧𝙖𝙛𝙤𝙧𝙢 𝙨𝙚𝙩𝙪𝙥 : 
 
+![image](https://github.com/user-attachments/assets/6706366d-b6d8-4cc1-b519-22375280491b)
+
+
 
 
 

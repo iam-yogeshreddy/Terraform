@@ -56,6 +56,12 @@ The terraform destroy command terminates resources that are defined in our confi
 => Enabling versioning on state file is good practice to recovering state file.
 
 
+![image](https://github.com/user-attachments/assets/42a66fa1-e8ee-4695-8af1-29e091baf9d5)
+
+
+
+
+
 ** 𝗖𝗵𝗮𝗹𝗹𝗲𝗻𝗴𝗲𝘀 𝘄𝗶𝘁𝗵 𝘁𝗲𝗿𝗿𝗮𝗳𝗼𝗿𝗺 :
 
 => State file management and state file should store in remote.

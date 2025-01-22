@@ -1,9 +1,18 @@
-provider "aws" {
-  region = "ap-south-1"
+variable "ami" {
+    description = "value for the ami"
 }
 
-resource "aws_instance" "demo" {
-    ami = var.ami
-    instance_type = lookup(var.instance_type,terraform.workspace, "t2.micro")
-    subnet_id = var.subnet_id
+variable "instance_type" {
+    description = "value for instance_type"
+    type = map(string)
+
+    default = {
+      "dev" = "t2.micro"
+      "stage" = "t2.medium"
+      "prod" = "t2.large"
+    }
+}
+
+variable "subnet_id" {
+    description = "value for the subnet_id"
 }

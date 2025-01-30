@@ -3,15 +3,15 @@ provider "aws" {
 }
 
 provider "vault" {
-  address = "http://13.201.73.244:8200"
+  address = "http://3.110.103.129:8200"
   skip_child_token = true
 
   auth_login {
     path = "auth/approle/login"
 
     parameters = {
-      role_id = "ab8981ea-8aa9-d380-46ee-2248f2882519"
-      secret_id = "95980b51-cc4b-8646-1451-73f62713b711"
+      role_id = "0b76ab42-699a-0f32-c458-b13e78cb0755"
+      secret_id = "f21b7d17-d41c-80a4-7399-86115952b5f5"
     }
   }
 }
@@ -24,9 +24,10 @@ data "vault_kv_secret_v2" "example" {
 resource "aws_instance" "my_instance" {
   ami = "ami-053b12d3152c0cc71"
   instance_type = "t2.micro"
+  subnet_id = "subnet-0074fea0a1606239d"
+}
 
   tags = {
     Name = "test"
     Secret = data.vault_kv_secret_v2.example.data["username"]
   }
-}

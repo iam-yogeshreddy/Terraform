@@ -26,7 +26,6 @@ resource "aws_instance" "my_instance" {
   instance_type = "t2.micro"
   subnet_id = "subnet-0074fea0a1606239d"
 
-
   tags = {
     Name = "test"
     Secret = data.vault_kv_secret_v2.example.data["username"]

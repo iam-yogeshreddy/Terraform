@@ -10,7 +10,7 @@ provider "vault" {
     path = "auth/approle/login"
 
     parameters = {
-      role_id = "c5be6ef2-6ef3-5258-b815-f26252afe90e"
+      role_id   = "c5be6ef2-6ef3-5258-b815-f26252afe90e"
       secret_id = "c90a2820-4641-2e50-024f-f7cd2e3005a9"
     }
   }
@@ -26,7 +26,7 @@ resource "aws_instance" "my_instance" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "test"
+    Name   = "test"
     Secret = data.vault_kv_secret_v2.example.data["username"]
   }
 }

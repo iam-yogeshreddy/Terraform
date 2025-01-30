@@ -3,21 +3,21 @@ provider "aws" {
 }
 
 provider "vault" {
-  address = "http://52.66.210.82/:8200"
+  address = "http://43.205.146.12:8200"
   skip_child_token = true
 
   auth_login {
     path = "auth/approle/login"
 
     parameters = {
-      role_id = "c589c1d1-aaeb-ff08-67f5-cdbebec0572di"
-      secret_id = "1273e5b1-a13b-bef0-fb05-6501ef009c5f"
+      role_id = "c5be6ef2-6ef3-5258-b815-f26252afe90e"
+      secret_id = "c90a2820-4641-2e50-024f-f7cd2e3005a9"
     }
   }
 }
 
 data "vault_kv_secret_v2" "example" {
-  mount = "secret" // change it according to your mount
+  mount = "kv" // change it according to your mount
   name  = "test-secret" // change it according to your secret
 }
 

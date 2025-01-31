@@ -11,7 +11,7 @@ terraform {
     }
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 5.6.0"
+      version = ">= 5.46.0"
     }
     local = {
       source  = "hashicorp/local"
@@ -19,7 +19,7 @@ terraform {
     }
     null = {
       source  = "hashicorp/null"
-      version = "~> 3.3.0"
+      version = ">= 3.0.0"
     }
     cloudinit = {
       source  = "hashicorp/cloudinit"

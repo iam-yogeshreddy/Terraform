@@ -73,9 +73,14 @@ The terraform destroy command terminates resources that are defined in our confi
 ![image](https://github.com/user-attachments/assets/42a66fa1-e8ee-4695-8af1-29e091baf9d5)
 
 
+
 𝙄𝙙𝙚𝙖𝙡 𝙏𝙚𝙧𝙧𝙖𝙛𝙤𝙧𝙢 𝙨𝙚𝙩𝙪𝙥 : 
 
 ![image](https://github.com/user-attachments/assets/6706366d-b6d8-4cc1-b519-22375280491b)
+
+
+
+Terraform State file Locking :
 
 
 

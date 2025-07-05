@@ -7,6 +7,9 @@ module "eks" {
 
   enable_irsa = true
 
+cluster_endpoint_public_access  = true
+#cluster_endpoint_private_access = true
+
   tags = {
     cluster = "demo"
   }

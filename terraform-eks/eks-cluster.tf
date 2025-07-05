@@ -30,3 +30,4 @@ cluster_endpoint_public_access  = true
       desired_size = 2
     }
   }
+}
